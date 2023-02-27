@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "An9s+CgZ+wj2/bVkjCiDGUspa8xFvtjjCvPBXO5lhnw6FCCpuoOM5jO7FliiZCTjStaQVnwTm6USrLRL6oQzXw==",
+  "dgSpecHash": "4e8NNFUscFldxnDIhKwr1IyjbUGEOXxNGrf7N6uQ1c4m8aAlK1PBDyWovRI55VauAHMGWnxiK9U5V/H22NZrsw==",
   "success": true,
-  "projectFilePath": "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party.iOS\\Party.iOS.csproj",
+  "projectFilePath": "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party.iOS/Party.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.5\\xamarin.communitytoolkit.2.0.5.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "/Users/adrianodlucca/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/adrianodlucca/.nuget/packages/xamarin.communitytoolkit/2.0.5/xamarin.communitytoolkit.2.0.5.nupkg.sha512",
+    "/Users/adrianodlucca/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/adrianodlucca/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.5 to 1.7.0. Reference the package directly from the project to select a different version. \r\n Party.iOS -> Party -> Xamarin.Essentials (>= 1.7.5) \r\n Party.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.5 to 1.7.0. Reference the package directly from the project to select a different version. \n Party.iOS -> Party -> Xamarin.Essentials (>= 1.7.5) \n Party.iOS -> Xamarin.Essentials (>= 1.7.0)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
@@ -27,7 +27,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2545 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n Party.iOS -> Party -> Xamarin.Forms (>= 5.0.0.2545) \r\n Party.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2545 to 5.0.0.2196. Reference the package directly from the project to select a different version. \n Party.iOS -> Party -> Xamarin.Forms (>= 5.0.0.2545) \n Party.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party.Android\\Party.Android.csproj": {}
+    "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party.Android/Party.Android.csproj": {}
   },
   "projects": {
-    "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party.Android\\Party.Android.csproj": {
+    "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party.Android/Party.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party.Android\\Party.Android.csproj",
+        "projectUniqueName": "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party.Android/Party.Android.csproj",
         "projectName": "Party.Android",
-        "projectPath": "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party.Android\\Party.Android.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party.Android\\obj\\",
+        "projectPath": "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party.Android/Party.Android.csproj",
+        "packagesPath": "/Users/adrianodlucca/.nuget/packages/",
+        "outputPath": "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/adrianodlucca/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid13.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party\\Party.csproj": {
-                "projectPath": "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party\\Party.csproj"
+              "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party/Party.csproj": {
+                "projectPath": "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party/Party.csproj"
               }
             }
           }
@@ -54,29 +48,22 @@
         }
       }
     },
-    "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party\\Party.csproj": {
+    "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party/Party.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party\\Party.csproj",
+        "projectUniqueName": "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party/Party.csproj",
         "projectName": "Party",
-        "projectPath": "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party\\Party.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Xamarin\\testes\\Party - Copia - Copia - Copia - Copia\\Party\\Party\\obj\\",
+        "projectPath": "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party/Party.csproj",
+        "packagesPath": "/Users/adrianodlucca/.nuget/packages/",
+        "outputPath": "/Users/adrianodlucca/Playground/Consultoria-Xamarin/Matheus/Party-App/PartyList/Party/Party/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/adrianodlucca/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,17 +101,22 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/adrianodlucca/Library/Caches/VisualStudio/17.0/MSBuild/22741_3/RuntimeIdentifierGraph.json"
         }
       }
     }
