@@ -16,7 +16,6 @@
             <Setter Property="TextColor" Value="#FFFFFF"/>
             <Setter Property="FontSize" Value="18"/>
             <Setter Property="FontAttributes" Value="Bold"/>
-            <Setter Property="Margin" Value="30,5"/>
         </Style>
 
         <Style x:Key="lablelTitle" TargetType="Label">
@@ -27,12 +26,10 @@
         </Style>
 
         <Style TargetType="Entry">
-            <Setter Property="Margin" Value="30,5"/>
             <Setter Property="BackgroundColor" Value="#FFFFFF"/>
             <Setter Property="FontAttributes" Value="Italic"/>
         </Style>
 
-        <Style x:Key="BackButton" TargetType="Button">
-        </Style>
+       
     </Application.Resources>
 </Application>

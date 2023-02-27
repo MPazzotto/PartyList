@@ -13,7 +13,7 @@
 namespace Party.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ProductPageAddParty.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ProductPageAddParty.xaml")]
     public partial class ProductPageAddParty : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

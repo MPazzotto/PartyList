@@ -2,60 +2,85 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Party.Views.ProductPage"
+             xmlns:effects="clr-namespace:Party.Effect"
              NavigationPage.HasNavigationBar="false">
     <ContentPage.Content>
         <!--Título da página-->
-        <StackLayout Padding="18, 55, 18, 80" BackgroundColor="{StaticResource PinkStrong}">
-            <Label Text="Party Planner"
-                   Style="{StaticResource lablelTitle}"/>
+        
+            <Grid RowDefinitions="Auto,*" BackgroundColor="{StaticResource PinkStrong}">
+                <Image Source="pattern"/>
+                <Label Text="Party Planner"
+                       Margin="0,60,0,0"
+                       Style="{StaticResource lablelTitle}"/>
             
-            <!--Campo de Login-->
-            <StackLayout>
-                <Label Style="{StaticResource lablelTitle}"
-                       Text="Login"
-                       HorizontalOptions="Start"
-                       Padding="30,100,0,0"
-                       FontSize="21"/>
-                <StackLayout>
-                    <Frame
-                        HasShadow="False"
-                        Padding="0,0"
-                        IsClippedToBounds="False"
-                        BorderColor="Black"
-                        CornerRadius="10"
-                        Margin="30,5">
-                        <Entry IsPassword ="False"
-                               Placeholder="E-mail"/>
-                    </Frame>
-                </StackLayout>
-                
-                <!--Campo de Senha-->
-                <StackLayout>
+                <!--Campo de Login-->
+                <StackLayout Grid.Row="1" Padding="30,0">
                     <Label Style="{StaticResource lablelTitle}"
-                       Text="Senha"
-                       HorizontalOptions="Start"
-                       Padding="30,30,0,0"
-                       FontSize="21"/>
+                           Text="Login"
+                           HorizontalOptions="Start"
+                           FontSize="21"/>
+                    <StackLayout>
                     <Frame
-                        HasShadow="False"
-                        Padding="0,0"
-                        IsClippedToBounds="False"
-                        BorderColor="Black"
-                        CornerRadius="10"
-                        Margin="30,5,30,180">
-                        <Entry IsPassword ="True"
-                               Placeholder="Senha"
-                               HorizontalOptions="Fill"/>
+                        Padding="0"
+                        BackgroundColor="Black"
+                        CornerRadius="12"
+                        HasShadow="False">
+                        <Frame
+                            HasShadow="False"
+                            Margin="2"
+                            Padding="0"
+                            IsClippedToBounds="True"
+                            BorderColor="Black"
+                            CornerRadius="10">
+                            <Entry IsPassword ="False"
+                                   TextColor="Black"
+                                   PlaceholderColor="LightGray"
+                                   Placeholder="E-mail">
+                                <Entry.Effects>
+                                    <effects:PlainEntry/>
+                                </Entry.Effects>
+
+                            </Entry>
+                        </Frame>
                     </Frame>
+                        <Label Style="{StaticResource lablelTitle}"
+                           Text="Senha"
+                           HorizontalOptions="Start"
+                           FontSize="21"/>
+                    <Frame
+                        Padding="0"
+                        BackgroundColor="Black"
+                        CornerRadius="12"
+                        HasShadow="False">
+                        <Frame
+                            HasShadow="False"
+                            Padding="0"
+                            Margin="2"
+                            IsClippedToBounds="True"
+                            CornerRadius="10"
+                            >
+                            <Entry IsPassword ="True"
+                                   Placeholder="Senha"
+                                   PlaceholderColor="LightGray"
+                                   TextColor="Black"
+                                   HorizontalOptions="Fill">
+                                <Entry.Effects>
+                                    <effects:PlainEntry/>
+                                </Entry.Effects>
+                            </Entry>
+                        </Frame>
+                    </Frame>
+                    </StackLayout>
+                
+                   <Button Text="Entrar"
+                           Margin="0,60,0,0"
+                           CornerRadius="10"
+                           HorizontalOptions="FillAndExpand"
+                           Clicked="Button_ClickedAsync"/>
+                    
                 </StackLayout>
-            </StackLayout>
             
-            <!--Botão para Entrar-->
-            <StackLayout>
-                <Button Text="Entrar"
-                        CornerRadius="10"
-                        Clicked="Button_ClickedAsync"/>
-            </StackLayout>
-        </StackLayout>
+            </Grid>
+            
     </ContentPage.Content>
 </ContentPage>

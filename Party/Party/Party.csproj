@@ -40,4 +40,10 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Effect\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Effect\" />
+  </ItemGroup>
 </Project>
