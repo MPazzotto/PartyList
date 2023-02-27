@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Party.Views.ProductPage2">
+    <ContentPage.Content>
+
+        <!--Título da Página-->
+        <StackLayout Padding="18, 55" BackgroundColor="{StaticResource PinkStrong}">
+            <Grid ColumnDefinitions="*,*">
+                <Label Text="Lista de Festas" 
+                   TextColor="{StaticResource Black}"
+                   FontAttributes="Bold" FontSize="32"
+                   HorizontalOptions="Center"
+                   Grid.ColumnSpan="2"/>
+
+                <!--Botão para voltar ao login-->
+                <ImageButton Source="leftarrow.png" 
+                             BackgroundColor="Transparent" 
+                             HeightRequest="45"
+                             WidthRequest="20"
+                             Grid.Column="0"
+                             HorizontalOptions="Start"
+                             VerticalOptions="CenterAndExpand"
+                             Clicked="ImageButton_Clicked"/>
+            </Grid>
+
+            <!-- Teste que deu errado!
+            <CollectionView
+                    ItemsSource="{Binding PartyList}">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Button Text="{Binding Date}" Grid.Row="0" Grid.Column="0" BackgroundColor="Red"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView> -->
+
+            <!--Festas Cadastradas-->
+            <Grid Padding="10,55">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="130"/>
+                    <RowDefinition Height="130"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="FestaGabi.png"  Grid.Row="0" Grid.Column="0" 
+                             Clicked="ImageButton_Clicked_1Async" 
+                             BackgroundColor="{StaticResource PinkStrong}"/>
+                <ImageButton Source="FinalAno.png" Grid.Row="0" Grid.Column="1"
+                             Clicked="ImageButton_Clicked_2Async"
+                             BackgroundColor="{StaticResource PinkStrong}"/>
+                <ImageButton Source="SemMotivo.png" Grid.Row="1" Grid.Column="0" 
+                             Clicked="ImageButton_Clicked_3Async"
+                             BackgroundColor="{StaticResource PinkStrong}"/>
+                <ImageButton Source="ADDFesta.png" Grid.Row="1" Grid.Column="1" 
+                             Clicked="ImageButton_Clicked_4Async"
+                             BackgroundColor="{StaticResource PinkStrong}"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

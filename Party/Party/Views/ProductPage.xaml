@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Party.Views.ProductPage"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Content>
+        <!--Título da página-->
+        <StackLayout Padding="18, 55, 18, 80" BackgroundColor="{StaticResource PinkStrong}">
+            <Label Text="Party Planner"
+                   Style="{StaticResource lablelTitle}"/>
+            
+            <!--Campo de Login-->
+            <StackLayout>
+                <Label Style="{StaticResource lablelTitle}"
+                       Text="Login"
+                       HorizontalOptions="Start"
+                       Padding="30,100,0,0"
+                       FontSize="21"/>
+                <StackLayout>
+                    <Frame
+                        HasShadow="False"
+                        Padding="0,0"
+                        IsClippedToBounds="False"
+                        BorderColor="Black"
+                        CornerRadius="10"
+                        Margin="30,5">
+                        <Entry IsPassword ="False"
+                               Placeholder="E-mail"/>
+                    </Frame>
+                </StackLayout>
+                
+                <!--Campo de Senha-->
+                <StackLayout>
+                    <Label Style="{StaticResource lablelTitle}"
+                       Text="Senha"
+                       HorizontalOptions="Start"
+                       Padding="30,30,0,0"
+                       FontSize="21"/>
+                    <Frame
+                        HasShadow="False"
+                        Padding="0,0"
+                        IsClippedToBounds="False"
+                        BorderColor="Black"
+                        CornerRadius="10"
+                        Margin="30,5,30,180">
+                        <Entry IsPassword ="True"
+                               Placeholder="Senha"
+                               HorizontalOptions="Fill"/>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+            
+            <!--Botão para Entrar-->
+            <StackLayout>
+                <Button Text="Entrar"
+                        CornerRadius="10"
+                        Clicked="Button_ClickedAsync"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,91 @@
+D:\Xamarin\testes\Party\Party\Party\bin\Debug\netstandard2.1\Party.deps.json
+D:\Xamarin\testes\Party\Party\Party\bin\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party\Party\Party\bin\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Party.csproj.AssemblyReference.cache
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Party.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\App.xaml.g.cs
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage.xaml.g.cs
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage2.xaml.g.cs
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageGabiParty.xaml.g.cs
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfoInputs.cache
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfo.cs
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Party.csproj.CoreCompileInputs.cache
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\XamlC.stamp
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\refint\Party.dll
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party\Party\Party\obj\Debug\netstandard2.1\ref\Party.dll
+D:\Xamarin\testes\Party - Copia\Party\Party\bin\Debug\netstandard2.1\Party.deps.json
+D:\Xamarin\testes\Party - Copia\Party\Party\bin\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party - Copia\Party\Party\bin\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Party.csproj.AssemblyReference.cache
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Party.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\App.xaml.g.cs
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage.xaml.g.cs
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage2.xaml.g.cs
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageGabiParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfoInputs.cache
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfo.cs
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Party.csproj.CoreCompileInputs.cache
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\XamlC.stamp
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\refint\Party.dll
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party - Copia\Party\Party\obj\Debug\netstandard2.1\ref\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.deps.json
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.csproj.AssemblyReference.cache
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\App.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage2.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageGabiParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfoInputs.cache
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfo.cs
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.csproj.CoreCompileInputs.cache
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\XamlC.stamp
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\refint\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\ref\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageEndYearParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.deps.json
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.csproj.AssemblyReference.cache
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\App.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage2.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageEndYearParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageGabiParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfoInputs.cache
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfo.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.csproj.CoreCompileInputs.cache
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\XamlC.stamp
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\refint\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\ref\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageNoReasonParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.csproj.AssemblyReference.cache
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\refint\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.deps.json
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.dll
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\bin\Debug\netstandard2.1\Party.pdb
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\App.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPage2.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageAddParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageEndYearParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageGabiParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Views\ProductPageNoReasonParty.xaml.g.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfoInputs.cache
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.AssemblyInfo.cs
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\Party.csproj.CoreCompileInputs.cache
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\XamlC.stamp
+D:\Xamarin\testes\Party - Copia - Copia - Copia - Copia\Party\Party\obj\Debug\netstandard2.1\ref\Party.dll

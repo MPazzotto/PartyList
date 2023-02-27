@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Party.Views.ProductPageNoReasonParty">
+    <ContentPage.Content>
+        <!--Título da Página-->
+        <StackLayout Padding="18,50" BackgroundColor="{StaticResource PinkStrong}">
+            <Grid ColumnDefinitions="*,*"
+                  RowDefinitions="*,*">
+                <Label Text="Lista de festas" 
+                   TextColor="{StaticResource Black}"
+                   FontAttributes="Bold" FontSize="32"
+                   HorizontalOptions="Center"
+                   Grid.ColumnSpan="2"/>
+
+                <!--Botão para voltar para a lista de festas-->
+                <ImageButton Source="leftarrow.png" 
+                             BackgroundColor="Transparent" 
+                             HeightRequest="45"
+                             WidthRequest="20"
+                             Grid.Column="0"
+                             HorizontalOptions="Start"
+                             VerticalOptions="CenterAndExpand"
+                             Clicked="ImageButton_Clicked"/>
+            </Grid>
+
+            <!--Cabeçalho da festa-->
+            <StackLayout BackgroundColor="{StaticResource White}"
+                         VerticalOptions="Start">
+                <StackLayout Margin="10,0"
+                             Orientation="Horizontal">
+
+                    <Label Text="06/01"
+                            VerticalOptions="Start"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            Padding="20,15,20,0"
+                            TextColor="{StaticResource Black}"/>
+                    <Image Source="people.png"
+                            VerticalOptions="Start"
+                            HorizontalOptions="EndAndExpand"
+                            Margin="0,20"/>
+                    <Label Text="12"
+                            Padding="0,17,15,0"
+                            TextColor="{StaticResource Black}"
+                            FontAttributes="Bold"/>
+
+                </StackLayout>
+                <StackLayout Margin="20,0,20,10"
+                             Orientation="Horizontal"
+                             Spacing="0">
+
+                    <Label Padding="10,0"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Start"
+                           FontSize="20"
+                           TextColor="{StaticResource Black}"
+                           FontAttributes="Bold"
+                           Text="Festa Sem Motivo"/>
+                    <Image Source="cifrao.png"
+                           VerticalOptions="Start"
+                           HorizontalOptions="EndAndExpand"
+                           Margin="0,5"/>
+                    <Label Text="140,00"
+                           Padding="0,3,5,0"
+                           TextColor="{StaticResource Black}"
+                           FontAttributes="Bold"/>
+                </StackLayout>
+            </StackLayout>
+
+            <!--Participantes-->
+            <StackLayout BackgroundColor="{StaticResource White}"
+                         VerticalOptions="FillAndExpand"
+                         Orientation="Horizontal"
+                         Spacing="0">
+                <Grid 
+                      ColumnDefinitions="*,*"
+                      RowDefinitions="*,*,*,*,*,*,*,*,*,*,*,*"
+                      HorizontalOptions="FillAndExpand">
+
+                    <!--Alice-->
+                    <Image Source="circle.png"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"
+                       Grid.Column="0"
+                       Margin="5,2"/>
+                    <Label Text="Alice"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="5,0"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"/>
+
+                    <!--Beto-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="1"
+                           Margin="5,0"/>
+                    <Label Text="Beto"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="1"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="1"/>
+
+                    <!--Diego B.-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="2"
+                           Margin="5,0"/>
+                    <Label Text="Diego B."
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="2"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="2"/>
+
+                    <!--Diego P.-->
+                    <Image Source="remove.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="3"
+                           Margin="5,0"/>
+                    <Label Text="Diego P."
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="3"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="3"/>
+
+                    <!--Fernando-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="4"
+                           Margin="5,0"/>
+                    <Label Text="Fernando"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="4"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="4"/>
+
+                    <!--Gabriel-->
+                    <Image Source="remove.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="5"
+                           Margin="5,0"/>
+                    <Label Text="Gabriel"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="5"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="5"/>
+
+                    <!--Leonardo-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="6"
+                           Margin="5,0"/>
+                    <Label Text="Leonardo"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="6"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="6"/>
+
+                    <!--Marcus J.-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="7"
+                           Margin="5,0"/>
+                    <Label Text="Marcus J."
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="7"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="7"/>
+
+                    <!--Michele-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="8"
+                           Margin="5,0"/>
+                    <Label Text="Michele"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="8"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="8"/>
+
+                    <!--Paulo-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="9"
+                           Margin="5,0"/>
+                    <Label Text="Paulo"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="9"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="9"/>
+
+                    <!--Rafael S.-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="10"
+                           Margin="5,0"/>
+                    <Label Text="Rafael S."
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="10"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="10"/>
+
+                    <!--Ralf-->
+                    <Image Source="circle.png"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Start"
+                           Grid.Column="0"
+                           Grid.Row="11"
+                           Margin="5,0"/>
+                    <Label Text="Ralf"
+                       FontAttributes="Bold"
+                       HorizontalOptions="StartAndExpand"
+                       Padding="30,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="0" 
+                       Grid.Row="11"/>
+                    <Label Text="R$ 14,00"
+                       FontAttributes="Bold"
+                       HorizontalOptions="EndAndExpand"
+                       Padding="10,0,5,5"
+                       TextColor="{StaticResource Black}"
+                       Grid.Column="1"
+                       Grid.Row="11"/>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

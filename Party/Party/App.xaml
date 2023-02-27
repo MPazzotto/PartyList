@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Party.App">
+    <Application.Resources>
+
+        <!--Cores-->
+        <Color x:Key="PinkStrong">#FF86A3</Color>
+        <Color x:Key="Black">#000000</Color>
+        <Color x:Key="White">#FFFFFF</Color>
+        <Color x:Key="GrayPale">#F1F1F1</Color>
+
+        <!--Estilos frequentes-->
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#000000"/>
+            <Setter Property="TextColor" Value="#FFFFFF"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="Margin" Value="30,5"/>
+        </Style>
+
+        <Style x:Key="lablelTitle" TargetType="Label">
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="TextColor" Value="{StaticResource Black}"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="FontSize" Value="32"/>
+        </Style>
+
+        <Style TargetType="Entry">
+            <Setter Property="Margin" Value="30,5"/>
+            <Setter Property="BackgroundColor" Value="#FFFFFF"/>
+            <Setter Property="FontAttributes" Value="Italic"/>
+        </Style>
+
+        <Style x:Key="BackButton" TargetType="Button">
+        </Style>
+    </Application.Resources>
+</Application>
