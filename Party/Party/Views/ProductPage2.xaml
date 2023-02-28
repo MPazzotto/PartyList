@@ -24,43 +24,25 @@
                              Clicked="ImageButton_Clicked"/>
             </Grid>
 
-            <!-- Teste que deu errado!
             <CollectionView
-                    ItemsSource="{Binding PartyList}">
-
+                HeightRequest="100"
+                ItemsSource="{Binding PartyList}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout
+                        HorizontalItemSpacing="10"
+                        Orientation="Horizontal"
+                        SnapPointsType="Mandatory"
+                        Span="2"
+                        VerticalItemSpacing="0" />
+                </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
-                            <Button Text="{Binding Date}" Grid.Row="0" Grid.Column="0" BackgroundColor="Red"/>
+                            <Button Text="{Binding Date}" Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
-            </CollectionView> -->
-
-            <!--Festas Cadastradas-->
-            <Grid Padding="10,55">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="130"/>
-                    <RowDefinition Height="130"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <ImageButton Source="FestaGabi.png"  Grid.Row="0" Grid.Column="0" 
-                             Clicked="ImageButton_Clicked_1Async" 
-                             BackgroundColor="{StaticResource PinkStrong}"/>
-                <ImageButton Source="FinalAno.png" Grid.Row="0" Grid.Column="1"
-                             Clicked="ImageButton_Clicked_2Async"
-                             BackgroundColor="{StaticResource PinkStrong}"/>
-                <ImageButton Source="SemMotivo.png" Grid.Row="1" Grid.Column="0" 
-                             Clicked="ImageButton_Clicked_3Async"
-                             BackgroundColor="{StaticResource PinkStrong}"/>
-                <ImageButton Source="ADDFesta.png" Grid.Row="1" Grid.Column="1" 
-                             Clicked="ImageButton_Clicked_4Async"
-                             BackgroundColor="{StaticResource PinkStrong}"/>
-            </Grid>
+            </CollectionView> 
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

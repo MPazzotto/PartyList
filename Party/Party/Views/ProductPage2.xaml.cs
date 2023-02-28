@@ -16,7 +16,7 @@ namespace Party.Views
 		public ProductPage2()
 		{
 			InitializeComponent();
-			//BindingContext = new ProductViewModel();
+			BindingContext = new ProductViewModel();
 
 			SetValue(NavigationPage.HasNavigationBarProperty, false);
 		}
@@ -24,26 +24,6 @@ namespace Party.Views
         private async void ImageButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ProductPage());
-        }
-
-        private async void ImageButton_Clicked_1Async(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ProductPageGabiParty());
-        }
-
-        private async void ImageButton_Clicked_2Async(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ProductPageEndYearParty());
-        }
-
-        private async void ImageButton_Clicked_3Async(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ProductPageNoReasonParty());
-        }
-
-        private async void ImageButton_Clicked_4Async(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ProductPageAddParty());
         }
     }
 }
